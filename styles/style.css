@@ -59,18 +59,18 @@
 /* ------------------------------------------------------ */
 
 .cover {
-  /* position: relative;
+  position: relative;
   z-index: 0;
   box-sizing: border-box;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; */
+  background-position: center;
 }
 
 .cover_title {
-  /* padding: 165px 50px 0px;
+  padding: 165px 50px 0px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -79,31 +79,27 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
-  letter-spacing: 0.3em; */
+  letter-spacing: 0.3em;
 }
 
-
 .accent-span {
-  /* display: block; */
+  display: block;
 }
 
 .aligned-text_center {
-  /* text-align: center; */
+  text-align: center;
 }
 
 .aligned-text_right {
-  /* text-align: right; */
+  text-align: right;
 }
 
 .cover__description {
-  /* display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
-  padding: 106px 50px 0; */
+  padding: 106px 50px 0;
 }
 
 .cover__description-text {
-  /* justify-self: start;
+  justify-self: start;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -112,11 +108,11 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
-  word-spacing: 20px; */
+  word-spacing: 20px;
 }
 
 .bet-button {
-  /* justify-self: end;
+  justify-self: end;
   width: 256px;
   height: 51px;
   border: 1px solid #ffffff;
@@ -128,28 +124,31 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
-  background-color: transparent; */
+  background-color: transparent;
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
 }
 
 .bet-button:hover {
-  /* transition: 0.4s;
+  transition: 0.4s;
   cursor: pointer;
-  scale: 1.09; */
+  scale: 1.09;
 }
 
 .bet-button:active {
-  /* opacity: 0.3;
-  scale: 0.99; */
+  opacity: 0.3;
+  scale: 0.99;
 }
 
 .overlay {
-  /* position: absolute;
+  /*position: absolute;
   inset: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
   opacity: 0.6;
-  background-color: #000000; */
+  background-color: #000000;*/
 }
 
 /* ----------------------------------------------------- */
