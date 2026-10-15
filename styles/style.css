@@ -1,4 +1,4 @@
-/* .header {
+.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -55,18 +55,18 @@
 .address.header__address a {
   color: #000000;
 }
-*/
+
 /* ------------------------------------------------------ */
 
 .cover {
-  /*position: relative;
+  /* position: relative;
   z-index: 0;
   box-sizing: border-box;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;*/
+  background-position: center; */
 }
 
 .cover_title {
